@@ -2,7 +2,7 @@ name: Collect GBFS status
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # every 15 minutes (UTC)
+    - cron: "*/60 * * * *"   # every 60 minutes (UTC)
   workflow_dispatch:          # adds a manual "Run workflow" button
 
 permissions:
